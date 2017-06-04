@@ -1,0 +1,32 @@
+// =====================================================
+// Fonts
+// =====================================================
+
+@font-face {
+  font-family: Sofia Pro Bold;
+  src: url("../fonts/Sofia Pro Bold.otf");
+}
+@font-face {
+  font-family: Sofia Pro Light;
+  src: url("../fonts/Sofia Pro Light.otf");
+}
+@font-face {
+  font-family: Sofia Pro Regular;
+  src: url("../fonts/Sofia Pro Regular.otf");
+}
+
+@mixin font-regular {
+  font-family: "Sofia Pro", 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin font-bold {
+  font-family: 'Sofia Pro Bold', 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin font-light {
+  font-family: 'Sofia Pro Light', 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
