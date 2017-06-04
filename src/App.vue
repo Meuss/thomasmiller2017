@@ -5,7 +5,7 @@
         color="#dedede"
         :particleOpacity="0.9"
         :particlesNumber="80"
-        shapeType="circle"
+        shapeType="star"
         :particleSize="4"
         linesColor="#dedede"
         :linesWidth="1"
